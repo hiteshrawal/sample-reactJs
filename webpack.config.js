@@ -43,31 +43,4 @@ var config = {
 
 
 
-// var config = {
-
-//   entry: APP_DIR + '/index.jsx',
-
-//   output: {
-//     path: BUILD_DIR,
-//     filename: 'bundle.js'
-//   },
-
-//    devServer: {
-//       inline: true,
-//       port: 8080
-//    },
-
-//   module : {
-//     loaders : [
-//       {
-//         test : /\.jsx?/,
-//         include : APP_DIR,
-//         loaders : ['react-hot','babel']
-//       }
-//     ]
-//   }
-// };
-
-
-
 module.exports = config;
